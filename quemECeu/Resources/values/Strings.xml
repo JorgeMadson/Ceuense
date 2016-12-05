@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Ceuenses</string>
+  <string name="titulo">Quem é esse Ceuense?</string>
+  <string name="enviar">Enviar</string>
+  <string name="pontuacao">Pontuação: </string>
+  <string name="tituloTentativaErradas">Tentativas erradas</string>
+  <string name="tituloTempo">Tempo</string>
+  <string name="tituloPontuacao">Pontuação</string>
+
+</resources>

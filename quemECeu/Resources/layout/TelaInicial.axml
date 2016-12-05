@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Quem é esse Ceuense?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20.0dp"
+        android:id="@+id/titulo" />
+    <ImageView
+        android:src="@drawable/bonecoCeuense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bonecoCeuense"
+        android:layout_marginTop="20.0dp" />
+    <Button
+        android:text="Começar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dp"
+        android:id="@+id/comecar"
+        android:layout_marginLeft="90.0dp" />
+</LinearLayout>
