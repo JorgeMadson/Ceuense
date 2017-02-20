@@ -5,7 +5,7 @@ using Android.Widget;
 
 namespace quemECeu
 {
-    //Troquei o label de "Ceuenses" para "quemECeu"
+    //Troquei o label de "quemECeu" para "Ceuenses"
     [Activity(Label = "Ceuenses", MainLauncher = true, Icon = "@drawable/icone",
         ScreenOrientation = Android.Content.PM.ScreenOrientation.SensorPortrait,
         Theme = "@android:style/Theme.Holo.Light")]
@@ -19,6 +19,10 @@ namespace quemECeu
             SetContentView(Resource.Layout.TelaInicial);
 
             Button comecar = FindViewById<Button>(Resource.Id.comecar);
+
+            //Button FacebookLoginButton = FindViewById<Button>(Resource.Id.btn_login_facebook);
+
+            //LoginManager.
 
             //comecar.SetBackgroundColor(Color.Blue);
 

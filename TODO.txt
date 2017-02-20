@@ -1,7 +1,5 @@
 TODO:
->- Fazer o aplicativo ser responsivo (para celulares menores)
+1- Fazer o aplicativo ser responsivo (para celulares menores)
 https://developer.xamarin.com/guides/android/application_fundamentals/resources_in_android/part_4_-_creating_resources_for_varying_screens/
->- Ajeitar botões
->- Som ao acertar e ao mostrar pontuação
->-Publicar o projeto no github, usando esse tutorial:
-https://scotch.io/tutorials/how-to-push-an-existing-project-to-github
+2- Som ao acertar e ao mostrar pontuação
+3- Login pelo facebook pra pegar foto e nome de novos ceuenses
