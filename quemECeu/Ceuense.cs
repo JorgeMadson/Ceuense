@@ -159,7 +159,7 @@ namespace quemECeu
             morador.Add(new Ceuense { id = 143, nome = "Leonardo Giehl", sexo = 'm', foto = Resource.Drawable.morador143 });
             morador.Add(new Ceuense { id = 144, nome = "Leonardo Saar Melo", sexo = 'm', foto = Resource.Drawable.morador144 });
             morador.Add(new Ceuense { id = 145, nome = "Lorraine Dias Da Silva", sexo = 'f', foto = Resource.Drawable.morador145 });
-            morador.Add(new Ceuense { id = 146, nome = "Lucas Basso Nakabayashi", sexo = 'm', foto = Resource.Drawable.morador146 });
+            //morador.Add(new Ceuense { id = 146, nome = "Lucas Basso Nakabayashi", sexo = 'm', foto = Resource.Drawable.morador146 });
             morador.Add(new Ceuense { id = 147, nome = "Lucas Camargo Maciel", sexo = 'm', foto = Resource.Drawable.morador147 });
             morador.Add(new Ceuense { id = 148, nome = "Lucas Cesar Lourenço De Moraes", sexo = 'm', foto = Resource.Drawable.morador148 });
             morador.Add(new Ceuense { id = 149, nome = "Lucas Daniel Custódio Praça", sexo = 'm', foto = Resource.Drawable.morador149 });
@@ -261,7 +261,6 @@ namespace quemECeu
             morador.Add(new Ceuense { id = 245, nome = "Wesley Rodrigo Dos Santos", sexo = 'm', foto = Resource.Drawable.morador245 });
             morador.Add(new Ceuense { id = 246, nome = "Wilham Klevis De Queiroz", sexo = 'm', foto = Resource.Drawable.morador246 });
             morador.Add(new Ceuense { id = 247, nome = "Yenifer Ninosca Silva Segovia", sexo = 'f', foto = Resource.Drawable.morador247 });
-
             #endregion
             return morador;
         }
