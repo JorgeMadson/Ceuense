@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
     <TextView
         android:text="Quem é esse Ceuense?"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="20.0dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/titulo" />
     <ImageView
         android:src="@drawable/bonecoCeuense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bonecoCeuense"
-        android:layout_marginTop="20.0dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/titulo" />
     <Button
         android:text="Começar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40.0dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/comecar"
         android:layout_centerInParent="true"
         android:layout_below="@+id/bonecoCeuense" />
-    <com.facebook.login.widget.LoginButton
-        android="@+id/btn_login_facebook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp" />
-    <Button
-        android:text="Facebook Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/comecar" />
-</RelativeLayout>
+  </RelativeLayout>
+</ScrollView>

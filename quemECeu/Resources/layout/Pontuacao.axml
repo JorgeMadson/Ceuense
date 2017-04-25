@@ -1,52 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-  <TextView
-      android:text="@string/tituloTentativaErradas"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tituloTentativaErradas"
-      android:layout_marginTop="20.0dp" />
-  <TextView
-      android:text="tentativasErradas"
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tentativasErradas"
-       android:layout_marginTop="20.0dp"
-      android:gravity="center" />
-  <TextView
-      android:text="@string/tituloTempo"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tituloTempo" />
-  <TextView
-      android:text="tempoDecorrido"
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tempo"
-      android:layout_marginTop="20.0dp"
-      android:gravity="center" />
-  <TextView
-      android:text="@string/tituloPontuacao"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tituloPontuacao" />
-  <TextView
-      android:text="pontuacao"
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/pontuacao"
-      android:layout_marginTop="20.0dp"
-      android:gravity="center" />
-  <ImageView
-      android:src="@drawable/trofeuDourado"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="20.0dp"
-      android:id="@+id/trofeu" />
-</LinearLayout>
+      android:layout_height="match_parent">
+    <TextView
+        android:text="@string/tituloTentativaErradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloTentativaErradas"
+        android:layout_marginTop="20.0dp" />
+    <TextView
+        android:text="tentativasErradas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tentativasErradas"
+        android:layout_marginTop="20.0dp"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/tituloTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloTempo" />
+    <TextView
+        android:text="tempoDecorrido"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempo"
+        android:layout_marginTop="20.0dp"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/tituloPontuacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloPontuacao" />
+    <TextView
+        android:text="pontuacao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pontuacao"
+        android:layout_marginTop="20.0dp"
+        android:gravity="center" />
+    <ImageView
+        android:src="@drawable/trofeuDourado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dp"
+        android:id="@+id/trofeu" />
+  </LinearLayout>
+</ScrollView>
