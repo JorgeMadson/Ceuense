@@ -41,7 +41,7 @@ namespace quemECeu
             //double pontuacaoFinal = Convert.ToInt16(pontosMainActivity) * 100 - Convert.ToInt16(errosMainActivity) * 200 + (60 - tempo.TotalSeconds) * 100; ;
 
             //string trofeu;
-            //Não errou nehum e fez em menos de 31s: Trófeu dourado
+            //Não errou nenhum e fez em menos de 31s: Trófeu dourado
             //Fez em menos de 31s: Trófeu prata
             //O resto: Trófeu Bronze
             if (tempo.TotalSeconds < 26)
